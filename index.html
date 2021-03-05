@@ -7,7 +7,8 @@
   <title>portafolio</title>
   <link rel="stylesheet" href="./assets/css/styles.css">
   <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
 <!-- Google Fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
 <!-- Bootstrap core CSS -->
@@ -17,139 +18,161 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"/>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg nav-bg ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Portafolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-          </li>
+  <nav class="navbar navbar-expand-lg navbar-dark nav-bg">
+    <a class="navbar-brand mx-5" href="#">Leo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item  text-color">
+          <a class="nav-link" href="#">Portafolio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item text-color">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item text-color">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header class="header-bg text-color container-fluid header-size padding-y">
+    <p class="row col-md-5  text-header-size">
+      <span class="second-color font-l"> Hi There<br>I'm Leo</span> a Software developer. <br> I can help you build a product, feature oir website look through some of my work and experience! if you like what you see and have a project you need coded. dont hesitate to contact me.
+    </p>
+  </header>
+  <h2>
+    My recents Works
+  </h2>
+  <section>
+    <div>
+      main work
+    </div>
+    <div class="container ">
+      <div class="row gap ">
+        <div class="col-md size-box border  bg-img bg-color img-bg-1 box-shadow">
+          <div class="container position-text-section">
+            <h3 class="text-color">Telegram Alfred Bot</h3>
+            <p class="text-color mt-4">
+              Telegram Alfred bot is there to help you choose a recipe to cook for breakfast, lunch, or dinner
+            </p>
+          </div>  
+        </div>
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+          <div class="container position-text-section">
+            <h3 class="text-color">Telegram Alfred Bot</h3>
+            <p class="text-color mt-4">
+              Telegram Alfred bot is there to help you choose a recipe to cook for breakfast, lunch, or dinner
+            </p>
+          </div>
+        </div>
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+          <div class="container position-text-section">
+            <h3 class="text-color">Telegram Alfred Bot</h3>
+            <p class="text-color mt-4">
+              Telegram Alfred bot is there to help you choose a recipe to cook for breakfast, lunch, or dinner
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 gap">
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+          <div class="container position-text-section">
+            <h3 class="text-color">Telegram Alfred Bot</h3>
+            <p class="text-color mt-4">
+              Telegram Alfred bot is there to help you choose a recipe to cook for breakfast, lunch, or dinner
+            </p>
+          </div>
+        </div>
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+          <div class="container position-text-section">
+            <h3 class="text-color">Telegram Alfred Bot</h3>
+            <p class="text-color mt-4">
+              Telegram Alfred bot is there to help you choose a recipe to cook for breakfast, lunch, or dinner
+            </p>
+          </div>
+        </div>
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+          <div class="container position-text-section">
+            <h3 class="text-color">Telegram Alfred Bot</h3>
+            <p class="text-color mt-4">
+              Telegram Alfred bot is there to help you choose a recipe to cook for breakfast, lunch, or dinner
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="header-bg size-about mt-5">
+    <h2>About me</h2>
+    <p class="text-color">
+      Hello, I'm a web developer! I can help you reach our ideas come true,
+      you can look at my work and  find projects that speak about my skills and the added value that I can offer to your project
+    </p>
+    <button class="text-color">
+      Get My Resume
+    </button>
+  </section>
+  <section class="container header-bg text-color">
+    <div class="row ">
+      <div class="col-md-4 size-box border">
+        <h3 class="text-center">Languages</h3>
+        <ul>
+          <li>Ruby</li>
+          <li>JavaScript</li>
+          <li>Html</li>
+          <li>Css</li>
+        </ul>
+      </div>
+      <div class="col-md-4 size-box border">
+        <h3 class="text-center">Frameworks</h3>
+        <ul>
+          <li>Ruby On Rails</li>
+          <li>Rspec</li>
+          <li>CapyBara</li>
+          <li>Bootstrap</li>
+          <li>Bulma</li>
+          <li>React</li>
+          <li>Redux</li>
+        </ul>
+      </div>
+      <div class="col-md-4 size-box border">
+        <h3 class="text-center">Skills</h3>
+        <ul>
+          <li>Git</li>
+          <li>Github</li>
+          <li>Terminal</li>
+          <li>CodeKit</li>
+          <li>Bulma</li>
         </ul>
       </div>
     </div>
-  </nav>
-  <header>
-    <div>
-      Hi there. <br>
-      I am Leo
-      <strong>a Software developer</strong>
-      i can help you build a product, feature oir website look through some of my work and experience! if you like what you see and have a project you need coded. dont hesitate to contact me.
-    </div>
-  </header>
-
-<!-- Footer -->
-  <footer class="bg-black ">
-    <div class="container d-flex justify-content-center">
-      <ul class="navbar-nav d-inline ">
-        <li class="nav-item text-white d-inline">
-          <a class="nav-link p-2 ">
-            HOME
-          </a>
-        </li>
-        <li class="nav-item text-white d-inline">
-          <a class="nav-link p-2 ">
-            SEARCH
-          </a>
-        </li>
-        <li class="nav-item text-white d-inline">
-          <a class="nav-link p-2">
-            ABOUT US
-          </a>
-        </li>
-        <li class="nav-item text-white d-inline">
-          <a class="nav-link p-2">
-            ADVERTISE
-          </a>
-        </li>
-        <li class="footer-logo d-inline"> <span> <img src="./assets/images/test.svg" alt="logo" class="img-logo collapse d-md-inline"></span></li>
-        <li class="nav-item text-white d-inline">
-          <a class="nav-link p-2">
-            FACEBOOK
-          </a>
-        </li>
-        <li class="nav-item text-white d-inline">
-          <a class="nav-link p-2">
-            TWITTER
-          </a>
-        </li>
-        <li class="nav-item text-white d-inline">
-          <a class="nav-link p-2">
-            BLOG
-          </a>
-        </li>
-        <li class="nav-item text-white d-inline">
-          <a class="nav-link p-2">
-            GOOGLE +
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="row mt-5 text-white container mx-auto text-center">
-      <div class="col-12 col-sm-12  col-md-4">
-        <h4 class="text-500">SUBSCRIBE</h4>
-        <form action="#" method="post">
-          
-          <input  type="text" id="send-mail">
-          <button type="submit" class=" border text-500 px-1" >SEND</button>
-        </form>
+  </section>
+  <section class="container">
+    <div class="row ">
+      <div class="col-md-4 size-box border">
+        <h3 >I'm always Interested 
+          in hearing about new
+          projects, so if you'd
+          like to chat, please
+          get in touch</h3>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 text-500">
-        <h4 class="text-500">CONTACT</h4>
-        <p class="text-500">Have a question or suggestions?</p>
-        <p class="contact-p text-500">Contact@findschool.com</p>
-      </div>
-      <div class="col-12 col-sm-12 col-md-4 ">
-        <h4 class="text-500">ABOUT</h4>
-        <p class="text-500">SchoolYa is an online platform that helps people to find the nearest school in their zone. Help them to start a study much easier without excuses. <span class="main-color"> Lear more...</span></p>
+      <div class="col">
+        dfgdfgdfgdfgdfgd
       </div>
     </div>
-    <div class="footer-bottom collapse collapse-sm d-md-flex bg-color-gray flex justify-content-between">
-    <div >
-      <ul class="flex align-items-center pt-2">
-          <li class="list">
-              <a class="nav-link waves-effect waves-light">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-          </li>
-          <li class="list">
-              <a class="nav-link waves-effect waves-light">
-                <i class="fab fa-twitter"></i>
-              </a>
-          </li>
-          <li class="list">
-              <a class="nav-link waves-effect waves-light">
-                <i class="fab fa-pinterest-p"></i>
-              </a>
-          </li>
-          <li class="list">
-              <a class="nav-link waves-effect waves-light">
-                <i class="fab fa-google-plus-g"></i>
-              </a>
-          </li>
-          <li class="list">
-              <a class="nav-link waves-effect waves-light">
-                  <i class="fab fa-instagram"></i>
-              </a>
-          </li>
-          
-      </ul>
-
-    </div>
-    <div class="mr-3 mt-3">
-      <p>It uses the same design from the project Patashule. <span> <a href="https://www.behance.net/gallery/25563385/PatashuleKE" class="main-color"> link of the original project </a></span></p>
-    </div>
+  </section>
+  <footer>
+    <div class="col-md-6 border mx-auto text-center">
+      <i class="fab fa-github"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-twitter"></i>
     </div>
   </footer>
+
+
 
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
