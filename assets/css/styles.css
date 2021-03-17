@@ -10,7 +10,7 @@
 }
 
 .second-color {
-  color: #f65801;
+  color: RGB(242, 135, 41);
 }
 
 .bg-img {
@@ -49,6 +49,20 @@
   font-size: 78px;
 }
 
+.header-svg {
+  background-image: url(../images/undraw_Updated_resume_re_q1or.svg);
+  height: 80vh;
+}
+
+/* kakebo section */
+.bg-kakebo {
+  background-color: RGB(242, 135, 41);
+}
+
+.img-bg-kakebo {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/kakebo-m.jpg);
+}
+
 /* w-section */
 .size-box {
   height: 27.188rem;
@@ -66,7 +80,7 @@
 }
 
 .img-bg-1 {
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/98182951-0c68e380-1ed5-11eb-81f4-3c7fbe9e82e6.png);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/alfred.png);
 }
 
 .bg-color {
