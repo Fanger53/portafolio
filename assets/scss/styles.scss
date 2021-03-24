@@ -8,7 +8,7 @@
 }
 
 .text-color {
-  color: $text-header-color;
+  color: $text-header-color !important;
 }
 
 .second-color {
@@ -99,5 +99,16 @@
   height: 36.938rem;
 }
 
+.img-profile {
+  width: 95vw;
+  height: 35vw;
+  background-image: url(../images/profile-pic.jpg);
+}
+
+/* Contact Section */
+
+.btn-bg {
+  background-color: $second-color !important;
+}
 
 

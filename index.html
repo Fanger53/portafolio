@@ -47,13 +47,13 @@
     </div>
   </header>
   <section>
-    <h2>
+    <h2 class="my-5">
       My recents Works
     </h2>
     <div class="container">
       <div class="row">
-        <div class="col-md-7 bg-kakebo">
-          <div class="size-box border  bg-img bg-color img-bg-kakebo box-shadow m-4">
+        <div class="col-md-7 bg-kakebo rounded">
+          <div class="size-box border rounded bg-img bg-color img-bg-kakebo box-shadow m-4">
             <div class="container position-text-section">
               
             </div>  
@@ -61,7 +61,7 @@
         </div>
         <div class="col-md">
           <h3 class="font-weight-bold h2">Kakebo</h3>
-          <p class="title mt-4">
+          <p class="title mt-4 lh-lg">
             You can track the spends you have daily and group them . Users are allowed to upload their own avatar as a profile photo and also they can do the same to each group in order to best represent the type of spends they are tracking, otherwise, the app will display a default icon instead.
           </p>    
         </div>
@@ -74,7 +74,7 @@
     </div>
     <div class="container ">
       <div class="row gap ">
-        <div class="col-md size-box border  bg-img bg-color img-bg-1 box-shadow">
+        <div class="col-md size-box border  bg-img bg-color img-bg-1 box-shadow rounded">
           <div class="container position-text-section">
             <h3 class="text-color">Telegram Alfred Bot</h3>
             <p class="text-color mt-4">
@@ -82,7 +82,7 @@
             </p>
           </div>  
         </div>
-        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1 rounded">
           <div class="container position-text-section">
             <h3 class="text-color">Telegram Alfred Bot</h3>
             <p class="text-color mt-4">
@@ -90,7 +90,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1 rounded">
           <div class="container position-text-section">
             <h3 class="text-color">Telegram Alfred Bot</h3>
             <p class="text-color mt-4">
@@ -100,7 +100,7 @@
         </div>
       </div>
       <div class="row mt-5 gap">
-        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1 rounded">
           <div class="container position-text-section">
             <h3 class="text-color">Telegram Alfred Bot</h3>
             <p class="text-color mt-4">
@@ -108,7 +108,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1 rounded">
           <div class="container position-text-section">
             <h3 class="text-color">Telegram Alfred Bot</h3>
             <p class="text-color mt-4">
@@ -116,7 +116,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1">
+        <div class="col-md size-box border box-shadow bg-img bg-color img-bg-1 rounded">
           <div class="container position-text-section">
             <h3 class="text-color">Telegram Alfred Bot</h3>
             <p class="text-color mt-4">
@@ -128,16 +128,27 @@
     </div>
   </section>
   <section class="header-bg size-about mt-5">
-    <h2>About me</h2>
-    <p class="text-color">
-      Hello, I'm a web developer! I can help you reach our ideas come true,
-      you can look at my work and  find projects that speak about my skills and the added value that I can offer to your project
-    </p>
-    <button class="text-color">
-      Get My Resume
-    </button>
+    <div class="container">
+      <h2 class="second-color pt-5">About Me</h2>
+      <div class="row">
+        <div class="col-md-5 rounded img-profile bg-img ">
+          
+        </div>
+        <div class="col-md-6">
+          <p class="text-color mt-4">
+            Hello, I'm a web developer! I can help you reach our ideas come true,
+            you can look at my work and  find projects that speak about my skills and the added value that I can offer to your project
+          </p>
+        
+          <button class="text-color btn-bg rounded btn p-2">
+            Get My Resume
+          </button>
+        </div>
+        
+      </div>
+    </div>
   </section>
-  <section class="container header-bg text-color">
+  <section class="container-fluid header-bg text-color">
     <div class="row ">
       <div class="col-md-4 size-box border">
         <h3 class="text-center">Languages</h3>
@@ -172,23 +183,45 @@
       </div>
     </div>
   </section>
-  <section class="container">
+  <section class="container mt-4">
     <div class="row ">
-      <div class="col-md-4 size-box border">
-        <h3 >I'm always Interested 
+      <div class="col-md-4 size-box ">
+        <h3 class="p-4 mt-5">I'm always Interested 
           in hearing about new
           projects, so if you'd
           like to chat, please
-          get in touch</h3>
+          get in touch
+        </h3>
       </div>
       <div class="col">
-        dfgdfgdfgdfgdfgd
+        <form>
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form4Example1" class="form-control" />
+            <label class="form-label" for="form4Example1">Name</label>
+          </div>
+        
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" />
+            <label class="form-label" for="form4Example2">Email address</label>
+          </div>
+        
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Message</label>
+          </div>
+        
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-bg btn-block  mb-4 ">Send</button>
+        </form>
       </div>
     </div>
   </section>
-  <footer>
-    <div class="col-md-6 border mx-auto text-center">
-      <i class="fab fa-github"></i>
+  <footer class="mt-4 border">
+    <div class="col-md-6  mx-auto text-center ">
+      <i class="fab fa-github "></i>
       <i class="fab fa-linkedin-in"></i>
       <i class="fab fa-twitter"></i>
     </div>

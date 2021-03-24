@@ -6,7 +6,7 @@
 }
 
 .text-color {
-  color: #fef5e4;
+  color: #fef5e4 !important;
 }
 
 .second-color {
@@ -90,4 +90,15 @@
 /* about section */
 .size-about {
   height: 36.938rem;
+}
+
+.img-profile {
+  width: 95vw;
+  height: 35vw;
+  background-image: url(../images/profile-pic.jpg);
+}
+
+/* Contact Section */
+.btn-bg {
+  background-color: RGB(242, 135, 41) !important;
 }/*# sourceMappingURL=styles.css.map */
