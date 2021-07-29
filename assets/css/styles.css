@@ -5,6 +5,10 @@
   font-family: "Crete Round", serif;
 }
 
+.bg-works-section {
+  background-color: #e9edee;
+}
+
 .text-color {
   color: #fef5e4 !important;
 }
@@ -49,6 +53,10 @@
   font-size: 78px;
 }
 
+.font-size-text {
+  font-size: 1.2rem;
+}
+
 .header-svg {
   background-image: url(../images/undraw_Updated_resume_re_q1or.svg);
   height: 80vh;
@@ -81,6 +89,14 @@
 
 .img-bg-1 {
   background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/alfred.png);
+}
+
+.img-bg-2 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/weather.png);
+}
+
+.img-bg-3 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/spacewars.png);
 }
 
 .bg-color {
