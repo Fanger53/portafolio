@@ -99,15 +99,23 @@
   background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/spacewars.png);
 }
 
+.img-bg-4 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/todolist.png);
+}
+
+.img-bg-5 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/patashule.png);
+}
+
+.img-bg-6 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/resta.png);
+}
+
 .bg-color {
   background-color: rgba(0, 0, 0, 0.699);
 }
 
 /* about section */
-.size-about {
-  height: 36.938rem;
-}
-
 .img-profile {
   width: 95vw;
   height: 35vw;
