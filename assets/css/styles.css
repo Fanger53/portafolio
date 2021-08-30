@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Crete Round", serif;
+}
+
+.bg-works-section {
+  background-color: #e9edee;
+}
+
+.text-color {
+  color: #fef5e4 !important;
+}
+
+.second-color {
+  color: #f28729;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gap {
+  gap: 10px;
+}
+
+/* Nav bar */
+.nav-bg {
+  background-color: #3b3a38;
+}
+
+/* Header */
+.header-bg {
+  background-color: #1b1a18;
+}
+
+.header-size {
+  height: 34rem;
+}
+
+.padding-y {
+  padding-top: 7rem;
+}
+
+.text-header-size {
+  height: 14rem;
+}
+
+.font-l {
+  font-size: 78px;
+}
+
+.font-size-text {
+  font-size: 1.2rem;
+}
+
+.header-svg {
+  background-image: url(../images/undraw_Updated_resume_re_q1or.svg);
+  height: 80vh;
+}
+
+/* kakebo section */
+.bg-kakebo {
+  background-color: #f28729;
+}
+
+.img-bg-kakebo {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/kakebo-m.jpg);
+}
+
+/* w-section */
+.size-box {
+  height: 27.188rem;
+}
+
+.box-shadow {
+  box-shadow: 5px -5px 5px -3px #3f3c39;
+}
+
+.position-text-section {
+  position: relative;
+  width: 125px;
+  left: 1rem;
+  top: 45%;
+}
+
+.img-bg-1 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/alfred.png);
+}
+
+.img-bg-2 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/weather.png);
+}
+
+.img-bg-3 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/spacewars.png);
+}
+
+.img-bg-4 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/todolist.png);
+}
+
+.img-bg-5 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/patashule.png);
+}
+
+.img-bg-6 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/assets/images/resta.png);
+}
+
+.bg-color {
+  background-color: rgba(0, 0, 0, 0.699);
+}
+
+/* about section */
+.img-profile {
+  width: 95vw;
+  height: 35vw;
+  background-image: url(../images/profile-pic.jpg);
+}
+
+/* Contact Section */
+.btn-bg {
+  background-color: #f28729 !important;
+}/*# sourceMappingURL=styles.css.map */
