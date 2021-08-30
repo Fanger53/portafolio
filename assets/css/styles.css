@@ -14,7 +14,7 @@
 }
 
 .second-color {
-  color: RGB(242, 135, 41);
+  color: #f28729;
 }
 
 .bg-img {
@@ -64,7 +64,7 @@
 
 /* kakebo section */
 .bg-kakebo {
-  background-color: RGB(242, 135, 41);
+  background-color: #f28729;
 }
 
 .img-bg-kakebo {
@@ -124,5 +124,5 @@
 
 /* Contact Section */
 .btn-bg {
-  background-color: RGB(242, 135, 41) !important;
+  background-color: #f28729 !important;
 }/*# sourceMappingURL=styles.css.map */
